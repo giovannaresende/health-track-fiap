@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+a{
+    color: #fff;
+}
+
+.body-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: #7986CB;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.body-content.logado{
+    background: #F2F2F2 !important;
+}
+
+.section-content{
+    width: max-content;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section-content.logado{
+    width: 100%;
+}
+
+.title-page{
+    font-size: 35px;
+    padding: 30px 10px;
+}
+
+.subtitle-page{
+    padding: 10px 0;
+    font-size: 13px;
+}
+
+.content-input{
+    width: max-content;
+    height: max-content;
+}
+
+.label-input{
+    padding: 10px 0 5px 0;
+    font-size: 13px;
+}
+
+.input-page{
+    border: none;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    color: #49599A;
+}
+
+.litte-letters-page{
+    padding: 10px 0;
+    font-size: 11.5px;
+    width: 100%;
+    text-align: center;
+}
+
+.btn-footer-page{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    background: #E57373;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+.header{
+    width: 100%;
+    height: 65px;
+    background: #49599A;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+
+.img-header{
+    margin: 0 15px;
+}
+
+.content-atv-home{
+    color: #484848;
+    width: 100%;
+}
+
+.conteudo-atv{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.conteudo-atv.column{
+    flex-direction: column;
+}
+
+.color-light{
+    color: #adaaaa;
+}
+
+.color-light.recuo{
+    padding: 0 0 0 10px;
+}
+
+.menu-footer{
+    width: 100%;
+    height: 65px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #e2e0e0;
+    border-top: 1px solid #484848;
+    bottom: 0;
+}
+
+.title-tb{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background: #AAB6FE;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.line-tb{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    color: #49599A;
+    border-bottom: 1px solid #49599A;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ball-menu{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: #E57373;
+    border-radius: 50%;
+}
